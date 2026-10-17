@@ -54,7 +54,28 @@ The **Bicycle Maintenance Log** is a colorful, clean, offline-first Flutter appl
 
 ---
 
-## ✨ 3. Application Screenshots & Key Features
+## 📱 Application Screenshots
+
+The application features 6 core screens built with Material Design 3, clean alignment, and responsive layouts:
+
+| Screen | Feature Description | Screenshot Filename |
+| :--- | :--- | :---: |
+| **1. Home Dashboard** | Real-time statistics cards, custom brand header, SDG 11 highlight card, quick action shortcuts, and nearest upcoming service preview. | `screenshots/dashboard.png` |
+| **2. Bicycle List** | Fleet management interface listing registered bicycles with brand, model, purchase date, and maintenance record counts. | `screenshots/bicycles.png` |
+| **3. Add / Edit Bicycle** | Input form with field validation, brand/model fields, and purchase date picker with error handling. | `screenshots/add_bicycle.png` |
+| **4. Maintenance History** | Chronological maintenance log (newest first) with color-coded service type icons, cost badges in ₹, and detailed service notes. | `screenshots/history.png` |
+| **5. Add / Edit Maintenance** | Logging form with bicycle dropdown selector, 6 service types, non-negative cost validation, notes, and Next Service Date picker. | `screenshots/add_maintenance.png` |
+| **6. Service Reminders** | Calendar-date service scheduler displaying status badges: **Upcoming (Green)**, **Due Today (Orange)**, and **Overdue (Red)** with reschedule buttons. | `screenshots/reminders.png` |
+
+> [!TIP]
+> **To add screenshot previews to the repository:**
+> 1. Launch the app using `flutter run -d chrome` or `flutter run -d windows`.
+> 2. Press `Win + Shift + S` to capture each of the 6 screens.
+> 3. Save the images in `screenshots/` using the filenames above (`dashboard.png`, `bicycles.png`, `add_bicycle.png`, `history.png`, `add_maintenance.png`, `reminders.png`).
+
+---
+
+## ✨ 3. Key Features & Functionality
 
 ### 1. Home Dashboard
 - **Custom Brand Header:** Professional branding with custom app logo and slogan *"Ride Smart. Maintain Better."*
